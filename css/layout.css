@@ -1,18 +1,23 @@
 @import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap");
 
-.wrap{
+.wrap {
   height: 100%;
+}
+body{
+  font-family: "Noto Sans KR", sans-serif;
+  /* font-family: 'Nanum Gothic', sans-serif; */
 }
 
 /***************POP 이벤트**************/
-.top-pop{
+.top-pop {
   height: 50px;
   background-color: #fff;
   position: relative;
   transition: all 0.3s;
 }
 
-.pop-text{
+.pop-text {
   width: 800px;
   margin: 0 auto;
   color: #000;
@@ -20,14 +25,14 @@
   line-height: 50px;
 }
 
-.d-none{
+.d-none {
   display: none;
 }
 
-.top-pop > button{
-  position:absolute;
+.top-pop > button {
+  position: absolute;
   right: 20px;
-  top:50%;
+  top: 50%;
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
@@ -35,7 +40,7 @@
 }
 
 /***********************************/
-header{
+header {
   height: 100px;
   background-color: #000;
   color: #fff;
@@ -43,14 +48,14 @@ header{
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   width: 250px;
   height: 100%;
   margin-left: 50px;
   /* background-color: #e9caca; */
 }
 
-.logo > a{
+.logo > a {
   display: block;
   height: 100%;
   background-image: url(../images/LOGO\ BOUCHERON.png);
@@ -59,26 +64,26 @@ header{
   background-size: contain;
 }
 
-.fixed{
+.fixed {
   position: fixed;
-  top:0;
+  top: 0;
   right: 0;
   width: 100%;
   background-color: #000;
   z-index: 500;
 }
 
-#header{
+#header {
   z-index: 10;
   width: 100%;
 }
 
-.absol{
+.absol {
   position: absolute;
 }
 
 /***********************************/
-nav{
+nav {
   width: 700px;
   height: 100%;
   /* background-color: rgb(246, 246, 152); */
@@ -90,7 +95,7 @@ nav > ul {
   justify-content: space-between;
 }
 
-nav > ul > li{
+nav > ul > li {
   width: 25%;
   height: 100%;
   line-height: 100px;
@@ -98,23 +103,21 @@ nav > ul > li{
   padding: 15px 0;
 }
 
-nav > ul > li > a{
+nav > ul > li > a {
   display: block;
   font-weight: bold;
   width: 100%;
   height: 100%;
 }
 
-nav > ul > li > a:hover{
+nav > ul > li > a:hover {
   transform: scale(1.1);
 }
 
-
-
 /***********************************/
-.util{
+.util {
   width: 500px;
-  height:100px;
+  height: 100px;
   /* background-color: rgb(171, 202, 124); */
   padding: 5px 10px;
   display: flex;
@@ -122,22 +125,21 @@ nav > ul > li > a:hover{
   justify-content: space-around;
 }
 
-
-.util input{
+.util input {
   display: block;
   width: 200px;
   height: 30px;
   border-radius: 10px;
   border: none;
-  margin-left:-30px ;
+  margin-left: -30px;
 }
 
 .util > input > p:first-child,
-.util > input > p:last-child{
-  width:25%;
+.util > input > p:last-child {
+  width: 25%;
 }
 
-.util p a{
+.util p a {
   display: inline-block;
 }
 
@@ -145,38 +147,35 @@ nav > ul > li > a:hover{
   transform: scale(1.1);
 }
 
-.util > input > p{
+.util > input > p {
   font-size: 17px;
 }
 /***********************************/
 
-main{
-  height:calc(100vh - 100px);
+main {
+  height: calc(100vh - 100px);
   background-color: #000;
 }
 
-main > video{
+main > video {
   position: relative;
-  height:100%;
+  height: 100%;
   width: 100%;
 }
 
-
-
-
 /***********************************/
 
-.main-img-wrap{
+.main-img-wrap {
   height: 950px;
-  background-color:#E9E9E9;
+  background-color: #e9e9e9;
   background-image: url(../images/main-img-2.jpg);
   background-size: cover;
-  background-position:top;
+  background-position: top;
   background-repeat: no-repeat;
   position: relative;
 }
 
-.main-img-wrap p{
+.main-img-wrap p {
   position: absolute;
   bottom: 200px;
   left: 50%;
@@ -189,66 +188,62 @@ main > video{
 
 .main-img-wrap button {
   position: absolute;
-  bottom:100px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   width: 150px;
   height: 50px;
   border: none;
   border-radius: 5px;
-  background-color:#eeeeeeb6;
+  background-color: #eeeeeeb6;
 }
 
-.main-img-wrap button > a{
+.main-img-wrap button > a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-.main-img-wrap button span{
+.main-img-wrap button span {
   display: inline-block;
   font-weight: bold;
   line-height: 50px;
 }
 
-
-
-
 /***********************************/
-.contents-video-wrap{
+.contents-video-wrap {
   height: 690px;
 }
 
-.contents-video-wrap > video{
-  height:100%;
+.contents-video-wrap > video {
+  height: 100%;
   width: 100%;
   background-color: #e6e6e6;
 }
 
-
 /***********************************/
-footer{
+footer {
   height: 300px;
   background-color: #fff;
   padding: 0 50px;
 }
 
-.footer-top{
+.footer-top {
   height: 70%;
 }
 
-.footer-nav{
+.footer-nav {
   width: 800px;
   height: 100%;
   /* background-color: pink; */
 }
 
-.footer-nav > ul{
+.footer-nav > ul {
   display: flex;
   justify-content: space-around;
 }
 
-.footer-nav > ul a{
+.footer-nav > ul a {
   display: block;
   font-size: 14px;
   color: #333;
@@ -256,30 +251,30 @@ footer{
   margin: 5px 0;
 }
 
-li.ft-gnb > a{
+li.ft-gnb > a {
   font-size: 15px;
   color: #000;
   font-weight: bolder;
   margin-bottom: 5px;
 }
 
-.footer-top a:hover{
+.footer-top a:hover {
   opacity: 1;
 }
 
-.footer-bottom{
+.footer-bottom {
   height: 30%;
   /* background-color: cadetblue; */
   display: flex;
   padding: 0 20px;
 }
 
-.footer-logo{
+.footer-logo {
   width: 200px;
   height: 100%;
 }
 
-.footer-logo > a{
+.footer-logo > a {
   display: block;
   width: 100%;
   height: 100%;
@@ -289,7 +284,7 @@ li.ft-gnb > a{
   background-size: contain;
 }
 
-.footer-copy{
+.footer-copy {
   width: 700px;
   height: 100%;
   /* background-color: #e6e6e6; */
@@ -298,22 +293,21 @@ li.ft-gnb > a{
   display: flex;
 }
 
-.footer-copy span{
+.footer-copy span {
   font-weight: bold;
   font-size: 14px;
   color: #333;
   margin-right: 50px;
 }
 
-.footer-copy p{
+.footer-copy p {
   display: inline-block;
   line-height: 90px;
   margin-left: 10px;
   color: #222;
 }
 
-.footer-copy p:hover{
+.footer-copy p:hover {
   transform: scale(1.1);
   color: #000;
 }
-
