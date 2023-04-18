@@ -11,7 +11,7 @@ body{
 
 /***************POP 이벤트**************/
 .top-pop {
-  height: 50px;
+  height: 40px;
   background-color: #fff;
   position: relative;
   transition: all 0.3s;
@@ -41,7 +41,7 @@ body{
 
 /***********************************/
 header {
-  height: 100px;
+  height: 80px;
   background-color: #000;
   color: #fff;
   display: flex;
@@ -52,6 +52,7 @@ header {
   width: 250px;
   height: 100%;
   margin-left: 50px;
+  margin-top: 10px;
   /* background-color: #e9caca; */
 }
 
